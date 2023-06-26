@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7967646057702377358}
+  - component: {fileID: -7070835320746644728}
   m_Layer: 0
   m_Name: clothup 3
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7070835320746644728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146810237462117141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84745458221f0ab40824904b29c578a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 59b9fc52-f505-4259-ab6f-d11e19f3b3b8
 --- !u!1 &6828513590476517775
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ public class GenderSelect : MonoBehaviour
 
     public void ChangeGender(bool sel) 
     {
+        CharacterInfo.gender = sel;
         male_model.transform.gameObject.SetActive(false);
         female_model.transform.gameObject.SetActive(false);
         if (sel)

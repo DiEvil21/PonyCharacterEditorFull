@@ -57,7 +57,8 @@ public class ScrollAreaController : MonoBehaviour
                 {
                     transform.GetChild(i).GetComponent<Image>().sprite = defaultSprite;
                 }
-                transform.GetChild(0).GetComponent<Image>().sprite = defaultDeleteSprite; 
+                transform.GetChild(0).GetComponent<Image>().sprite = defaultDeleteSprite;
+                CharacterInfo.anchorDict[anchor] = null;
             }
         }
         else 
@@ -74,6 +75,7 @@ public class ScrollAreaController : MonoBehaviour
                 Object.Destroy(anchor.transform.GetChild(0).gameObject);
             }
             GameObject hair = Instantiate(prefabs_arr[ID]);
+            CharacterInfo.anchorDict[anchor] = prefabs_arr[ID].GetComponent<ItemUID>().id;
             if (hair.name.Contains("mask") && anchorForDelete != null)
             {
                 if (anchorForDelete.transform.childCount > 0) 
@@ -88,7 +90,7 @@ public class ScrollAreaController : MonoBehaviour
                 if (anchorForDelete.transform.childCount > 0)
                 {
                     if (anchorForDelete.transform.GetChild(0).gameObject.name.Contains("mask"))
-                        Object.Destroy(anchorForDelete.transform.GetChild(0).gameObject);
+                    Object.Destroy(anchorForDelete.transform.GetChild(0).gameObject);
                 }
 
             }

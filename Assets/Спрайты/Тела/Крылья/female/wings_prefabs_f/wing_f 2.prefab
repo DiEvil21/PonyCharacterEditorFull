@@ -93,6 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5490501722769263635}
+  - component: {fileID: 1576194909781115981}
   m_Layer: 0
   m_Name: wing_f 2
   m_TagString: Untagged
@@ -117,6 +118,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1576194909781115981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669161790089981154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84745458221f0ab40824904b29c578a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 615310f7-6b3a-49f8-8d46-15c449556164
 --- !u!1 &2329246560131599557
 GameObject:
   m_ObjectHideFlags: 0
