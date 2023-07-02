@@ -10,6 +10,7 @@ public class CharacterInfo : MonoBehaviour
     public static Dictionary<GameObject, string> anchorDict = new Dictionary<GameObject, string>();
     public GameObject female_model, male_model;
 
+
     private void Start()
     {
         foreach(GameObject anch in anchorList)
@@ -18,7 +19,7 @@ public class CharacterInfo : MonoBehaviour
         }
         try 
         { 
-            Load(); 
+            //Load(); 
         }
         catch { }
             
@@ -37,9 +38,14 @@ public class CharacterInfo : MonoBehaviour
         }
         foreach (var item in anchorDict)
         {
-            Debug.Log(item.Key);
+            //Debug.Log(item.Key);
             for (int i = 0; i < assetsList.Length; i++)
             {
+                if (item.Key.transform.childCount > 0) 
+                {
+                    Destroy(item.Key.transform.GetChild(0).transform.gameObject);
+                }
+                
                 if (assetsList[i].GetComponent<ItemUID>().id == item.Value)
                 {
                     Instantiate(assetsList[i]).transform.SetParent(item.Key.transform, false);
@@ -59,12 +65,31 @@ public class CharacterInfo : MonoBehaviour
             if (foundAnch != null)
             {
                 anchorDict[foundAnch] =  item.Value;
-                Debug.Log(item.Value);
+                //Debug.Log(item.Value);
             }
 
         }
         SpawnAssets();
     }
+    public void LoadFromCash(CharacterData data)
+    {
+        Debug.Log("LoadFromCash...");
+        SerializableDictionary<string, string> loadedData = data.anchorDict;
+        gender = data.gender;
+
+        foreach (var item in loadedData)
+        {
+            GameObject foundAnch = anchorList.FirstOrDefault(obj => obj.name == item.Key);
+            if (foundAnch != null)
+            {
+                anchorDict[foundAnch] = item.Value;
+                Debug.Log(item.Value);
+            }
+        }
+
+        SpawnAssets();
+    }
+
 
     public void Save()
     {
