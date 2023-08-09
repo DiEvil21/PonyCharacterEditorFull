@@ -11,6 +11,7 @@ public class ColorChange : MonoBehaviour
     public TMP_InputField color_label;
     public GameObject[] anchors;
     public GameObject[] anchors_f;
+    public GameObject gender_panel;
     public Material[] mats;
     public Material[] mats_ui;
     private int cloth_id;
@@ -35,29 +36,16 @@ public class ColorChange : MonoBehaviour
         cloth_id = clothId;
     }
 
-    public void ChangeColor() 
+
+    public void ChangeColor()
     {
-        Debug.Log(anchors[cloth_id]);
+        if (gender_panel.activeSelf) 
+        {
+            cloth_id = mats.Length -1;
+        }
         mats[cloth_id].color = colorSwatch.Color;
         mats_ui[cloth_id].color = colorSwatch.Color;
-        /*try
-        {
-            if (gender)
-            {
-                anchors[cloth_id].transform.GetChild(0).transform.GetChild(0).transform.gameObject.GetComponent<SpriteRenderer>().color = colorSwatch.Color;
-            }
-            else 
-            {
-                anchors_f[cloth_id].transform.GetChild(0).transform.GetChild(0).transform.gameObject.GetComponent<SpriteRenderer>().color = colorSwatch.Color;
-            }
-            //anchors[cloth_id].transform.GetChild(0).transform.GetChild(0).transform.gameObject.GetComponent<SpriteRenderer>().color = colorSwatch.Color;
-        }
-        catch 
-        {
-            Debug.Log("Предмет не выбран");
-        }*/
-        //anchors[cloth_id].transform.GetChild(0).transform.GetChild(0).transform.gameObject.GetComponent<SpriteRenderer>().color = colorSwatch.Color;
-        //GetComponent<SpriteRenderer>().color =  colorSwatch.Color;
+        
         TMP_Text textComponent = color_label.textComponent;
         if (textComponent != null)
         {
