@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072967443712331006}
   - component: {fileID: 4284378837490621941}
+  - component: {fileID: 3234980910742804196}
   m_Layer: 0
   m_Name: zogriv prefab 6
   m_TagString: Untagged
@@ -46,6 +47,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 9b0bcdb8-ba4e-4984-8a7b-832ac55d1439
+--- !u!210 &3234980910742804196
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3345396770881029781}
+  m_Enabled: 1
+  m_SortingLayerID: -384640573
+  m_SortingLayer: 3
+  m_SortingOrder: 0
 --- !u!1 &4451540829784569998
 GameObject:
   m_ObjectHideFlags: 0

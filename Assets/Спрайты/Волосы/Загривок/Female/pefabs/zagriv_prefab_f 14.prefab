@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1883245677752597031}
   - component: {fileID: -2893812714707359832}
+  - component: {fileID: 7878203972599050344}
   m_Layer: 0
   m_Name: zagriv_prefab_f 14
   m_TagString: Untagged
@@ -130,3 +131,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 71f1ee0e-03cf-490f-b903-894c48d6c6e0
+--- !u!210 &7878203972599050344
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958069715381835991}
+  m_Enabled: 1
+  m_SortingLayerID: -384640573
+  m_SortingLayer: 1
+  m_SortingOrder: 0
