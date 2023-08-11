@@ -15,6 +15,7 @@ public class ScrollAreaController : MonoBehaviour
     public GameObject[] prefabs_arr;
     public Material mat;
     public GameObject anchorForDelete;
+    public GameObject[] ears;
     void Start()
     {
         generateIcons(sprites_arr);
@@ -52,6 +53,8 @@ public class ScrollAreaController : MonoBehaviour
         {
             if (anchor.transform.childCount > 0)
             {
+                // Активируем уши при удалении шмота если уши указаны
+                ActivateEars();
                 Object.Destroy(anchor.transform.GetChild(0).gameObject);
                 for (int i = 1; i < transform.childCount; i++)
                 {
@@ -63,25 +66,38 @@ public class ScrollAreaController : MonoBehaviour
         }
         else 
         {
+            //Убираем уши если указаны
+            DeactivateEars();
             for (int i = 0; i < transform.childCount; i++)
             {
                 transform.GetChild(i).GetComponent<Image>().sprite = defaultSprite;
             }
             transform.GetChild(0).GetComponent<Image>().sprite = defaultDeleteSprite;
             transform.GetChild(ID + 1).GetComponent<Image>().sprite = activeSprite;
-
+            //Убираем предыдущий шмот на том же якоре
             if (anchor.transform.childCount > 0)
             {
                 Object.Destroy(anchor.transform.GetChild(0).gameObject);
             }
+            // спавним новый шмот
             GameObject hair = Instantiate(prefabs_arr[ID]);
             CharacterInfo.anchorDict[anchor] = prefabs_arr[ID].GetComponent<ItemUID>().id;
-            if (hair.name.Contains("mask") && anchorForDelete != null)
+            // Если указан якорь для удаления, скрываем его(например,при надевании маски надо убрать волосы)
+            if (anchorForDelete != null) 
+            {
+                anchorForDelete.SetActive(false);
+            }
+            // это старый вариант, где удалялся шмот на якоре для удаления
+            /*if (hair.name.Contains("mask") && anchorForDelete != null)
             {
                 if (anchorForDelete.transform.childCount > 0) 
-                {   
-                    if (anchorForDelete.transform.GetChild(0).gameObject.name.Contains("hair"))
-                    Object.Destroy(anchorForDelete.transform.GetChild(0).gameObject);
+                {
+                    if (anchorForDelete.transform.GetChild(0).gameObject.name.Contains("hair")) 
+                    {
+                        anchorForDelete.SetActive(false);
+                    }
+                    *//*Object.Destroy(anchorForDelete.transform.GetChild(0).gameObject);*//*
+                    
                 }
                
             }
@@ -89,13 +105,40 @@ public class ScrollAreaController : MonoBehaviour
             {
                 if (anchorForDelete.transform.childCount > 0)
                 {
-                    if (anchorForDelete.transform.GetChild(0).gameObject.name.Contains("mask"))
-                    Object.Destroy(anchorForDelete.transform.GetChild(0).gameObject);
+                    if (anchorForDelete.transform.GetChild(0).gameObject.name.Contains("mask")) 
+                    {
+                        anchorForDelete.SetActive(false);
+                    }
+                    *//*Object.Destroy(anchorForDelete.transform.GetChild(0).gameObject);*//*
                 }
 
-            }
+            }*/
             hair.transform.SetParent(anchor.transform, false);
         }
         
     }
+
+    public void DeactivateEars() 
+    {
+        if (ears != null) 
+        {
+            foreach (GameObject ear in ears)
+            {
+                ear.SetActive(false);
+            }
+        }
+        
+    }
+    public void ActivateEars() 
+    {
+        if (ears != null)
+        {
+            foreach (GameObject ear in ears)
+            {
+                ear.SetActive(true);
+            }
+        }
+    }
+
+
 }

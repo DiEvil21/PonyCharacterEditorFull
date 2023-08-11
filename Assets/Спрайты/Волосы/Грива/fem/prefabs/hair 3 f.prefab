@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074609825826303059}
   m_LocalRotation: {x: -0, y: -0, z: -0.16093773, w: 0.98696464}
-  m_LocalPosition: {x: 0.0592, y: -0.1112, z: 0}
+  m_LocalPosition: {x: 0.059287693, y: -0.1116757, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7356814744839013760}
   - component: {fileID: -2073256805493595227}
+  - component: {fileID: 101370350449172711}
   m_Layer: 0
   m_Name: hair 3 f
   m_TagString: Untagged
@@ -130,3 +131,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 074e9b96-4bdc-4070-a1aa-0af94d651d14
+--- !u!210 &101370350449172711
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4579699772301858141}
+  m_Enabled: 1
+  m_SortingLayerID: 295978605
+  m_SortingLayer: 7
+  m_SortingOrder: 0

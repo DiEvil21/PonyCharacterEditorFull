@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8129681549556230025}
   - component: {fileID: 8942920646777959547}
+  - component: {fileID: 749299963870758373}
   m_Layer: 0
   m_Name: hair 5 f
   m_TagString: Untagged
@@ -130,3 +131,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 43b80433-10c3-4771-a051-cac362879e3f
+--- !u!210 &749299963870758373
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973672001297299284}
+  m_Enabled: 1
+  m_SortingLayerID: 295978605
+  m_SortingLayer: 7
+  m_SortingOrder: 0

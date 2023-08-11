@@ -57,6 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3683506745627723383}
   - component: {fileID: 7855263985264213908}
+  - component: {fileID: 7829701949600795206}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -72,7 +73,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607692974152635457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0211, y: -0.0785, z: 0}
+  m_LocalPosition: {x: 0.041800022, y: -0.04350005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -120,7 +121,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: 21300000, guid: bb4c556d521995f4c8fd1f8b9923fc73, type: 3}
+  m_Sprite: {fileID: 4532547948276711908, guid: f81df39af0b630a4ab603163f3a66a5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 1
@@ -131,6 +132,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!210 &7829701949600795206
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607692974152635457}
+  m_Enabled: 1
+  m_SortingLayerID: -1625262697
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &3509435676543981257
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6957288234663351481}
   - component: {fileID: 3004762607366017114}
+  - component: {fileID: 8866557588864274332}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -156,7 +169,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3509435676543981257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.048, y: -0.0908, z: 0}
+  m_LocalPosition: {x: 0.0687, y: -0.0558, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -204,7 +217,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5d012033636d6574faf1e09c05ed3863, type: 3}
+  m_Sprite: {fileID: -3853536020574782393, guid: f81df39af0b630a4ab603163f3a66a5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 1
@@ -215,3 +228,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!210 &8866557588864274332
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3509435676543981257}
+  m_Enabled: 1
+  m_SortingLayerID: -1129958837
+  m_SortingLayer: 2
+  m_SortingOrder: 0

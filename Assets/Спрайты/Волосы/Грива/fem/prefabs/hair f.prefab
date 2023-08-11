@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 39129775726830302}
   - component: {fileID: 4702140974744045608}
+  - component: {fileID: 730952004610811202}
   m_Layer: 0
   m_Name: hair f
   m_TagString: Untagged
@@ -46,6 +47,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 9da46a1a-8191-4a3c-a6ba-a7a62e5ceda1
+--- !u!210 &730952004610811202
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6421553588150448643}
+  m_Enabled: 1
+  m_SortingLayerID: 295978605
+  m_SortingLayer: 7
+  m_SortingOrder: 0
 --- !u!1 &7528448113492593421
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ TagManager:
   - ScrollViewController
   - male_model
   - name_field
+  - character
   layers:
   - Default
   - TransparentFX
@@ -60,11 +61,20 @@ TagManager:
   - name: armor
     uniqueID: 3217242007
     locked: 0
+  - name: leg_front_left
+    uniqueID: 3214897213
+    locked: 0
   - name: mask
     uniqueID: 2001836073
     locked: 0
   - name: hair
     uniqueID: 295978605
+    locked: 0
+  - name: uho
+    uniqueID: 26015431
+    locked: 0
+  - name: helmet
+    uniqueID: 4161333419
     locked: 0
   - name: tail
     uniqueID: 1696448345

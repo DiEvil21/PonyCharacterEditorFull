@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6618338776391570088}
   - component: {fileID: 4169954081417506759}
+  - component: {fileID: 2538901723039416934}
   m_Layer: 0
   m_Name: headPr 2
   m_TagString: Untagged
@@ -130,3 +131,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: bd98abcc-539b-4832-93e4-13546b8e40e9
+--- !u!210 &2538901723039416934
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168781210146748914}
+  m_Enabled: 1
+  m_SortingLayerID: -133633877
+  m_SortingLayer: 9
+  m_SortingOrder: 0
