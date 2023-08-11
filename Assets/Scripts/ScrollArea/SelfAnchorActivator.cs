@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AnchorsActivator : MonoBehaviour
+public class SelfAnchorActivator : MonoBehaviour
 {
     CharacterInfo characterInfo;
     private Button button;
@@ -18,12 +18,14 @@ public class AnchorsActivator : MonoBehaviour
         characterInfo = GameObject.FindGameObjectWithTag("character").GetComponent<CharacterInfo>();
     }
 
-    public void ActivateAnchors() 
+    public void ActivateAnchors()
     {
+        GetComponentInParent<ScrollAreaController>().anchor.SetActive(true);
         if (GetComponentInParent<ScrollAreaController>().anchorForDelete != null) 
         {
-            GetComponentInParent<ScrollAreaController>().anchorForDelete.SetActive(true);
+            GetComponentInParent<ScrollAreaController>().anchorForDelete.SetActive(false);
         }
+        
 
     }
 
@@ -34,3 +36,4 @@ public class AnchorsActivator : MonoBehaviour
         ActivateAnchors();
     }
 }
+

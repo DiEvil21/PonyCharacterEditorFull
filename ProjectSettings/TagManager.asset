@@ -46,6 +46,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: tail
+    uniqueID: 1696448345
+    locked: 0
   - name: zagriv_back
     uniqueID: 3910326723
     locked: 0
@@ -58,29 +61,26 @@ TagManager:
   - name: head
     uniqueID: 818385205
     locked: 0
-  - name: armor
-    uniqueID: 3217242007
-    locked: 0
   - name: leg_front_left
     uniqueID: 3214897213
-    locked: 0
-  - name: beard
-    uniqueID: 3252781573
     locked: 0
   - name: mask
     uniqueID: 2001836073
     locked: 0
+  - name: armor
+    uniqueID: 3217242007
+    locked: 0
   - name: hair
     uniqueID: 295978605
+    locked: 0
+  - name: beard
+    uniqueID: 3252781573
     locked: 0
   - name: uho
     uniqueID: 26015431
     locked: 0
   - name: helmet
     uniqueID: 4161333419
-    locked: 0
-  - name: tail
-    uniqueID: 1696448345
     locked: 0
   - name: boots
     uniqueID: 1939863437
