@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e8f92e0f522bb1742af69e84c39cfea0
+guid: 37af6aec2478a4b4d8463f6d0a632bf2
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,7 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: "\uFFFD\uFFFD\uFFFD\uFFFD1"
+  - name: "\u0421\u043B\u043E\u04391"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -104,7 +104,7 @@ ScriptedImporter:
       y: 4
       width: 26
       height: 20
-    spriteID: a87a03d0e6b3d864e84122dfd718e8f2
+    spriteID: 137353ef60bf8bb43953769cce644f48
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -173,17 +173,6 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -200,12 +189,12 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: "\uFFFD\uFFFD\uFFFD\uFFFD1"
-    spriteName: "\uFFFD\uFFFD\uFFFD\uFFFD1"
+  - name: "\u0421\u043B\u043E\u04391"
+    spriteName: "\u0421\u043B\u043E\u04391"
     isGroup: 0
     parentIndex: -1
-    spriteID: a87a03d0e6b3d864e84122dfd718e8f2
-    layerID: 0
+    spriteID: 137353ef60bf8bb43953769cce644f48
+    layerID: 2
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1

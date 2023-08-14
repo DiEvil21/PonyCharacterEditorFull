@@ -82,9 +82,6 @@ TagManager:
   - name: helmet
     uniqueID: 4161333419
     locked: 0
-  - name: boots
-    uniqueID: 1939863437
-    locked: 0
   - name: clothUp
     uniqueID: 433215983
     locked: 0
@@ -93,6 +90,9 @@ TagManager:
     locked: 0
   - name: legs_front
     uniqueID: 2961211813
+    locked: 0
+  - name: boots
+    uniqueID: 1939863437
     locked: 0
   - name: zagriv
     uniqueID: 1852001663
