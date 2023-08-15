@@ -49,11 +49,11 @@ TagManager:
   - name: tail
     uniqueID: 1696448345
     locked: 0
-  - name: zagriv_back
-    uniqueID: 3910326723
-    locked: 0
   - name: legs_back
     uniqueID: 3165008459
+    locked: 0
+  - name: zagriv_back
+    uniqueID: 3910326723
     locked: 0
   - name: body
     uniqueID: 3452536687
