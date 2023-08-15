@@ -939,7 +939,7 @@ SortingGroup:
   m_GameObject: {fileID: 43143866}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
 --- !u!212 &43143869
 SpriteRenderer:
@@ -1534,7 +1534,7 @@ SortingGroup:
   m_GameObject: {fileID: 75181266}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
 --- !u!212 &75181269
 SpriteRenderer:
@@ -2171,7 +2171,7 @@ SortingGroup:
   m_GameObject: {fileID: 117625822}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &117625825
 SpriteRenderer:
@@ -3125,7 +3125,7 @@ SortingGroup:
   m_GameObject: {fileID: 192426734}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &192426737
 SpriteRenderer:
@@ -5101,7 +5101,7 @@ SortingGroup:
   m_GameObject: {fileID: 329248564}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -85
 --- !u!212 &329248567
 SpriteRenderer:
@@ -12864,7 +12864,7 @@ SortingGroup:
   m_GameObject: {fileID: 779278055}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &779278058
 SpriteRenderer:
@@ -13126,7 +13126,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 820089198}
   m_Father: {fileID: 1755475194}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13373,6 +13374,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!1001 &820089197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 804126891}
+    m_Modifications:
+    - target: {fileID: 435357824854500208, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 435357824854500208, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0224
+      objectReference: {fileID: 0}
+    - target: {fileID: 435357824854500208, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999124
+      objectReference: {fileID: 0}
+    - target: {fileID: 435357824854500208, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 435357824854500208, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 435357824854500208, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.004194467
+      objectReference: {fileID: 0}
+    - target: {fileID: 435357824854500208, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121420882651925690, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_Name
+      value: armor 2 f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842656013215629686, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842656013215629686, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842656013215629686, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1077725289
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+--- !u!4 &820089198 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6503174061135934482, guid: 734e18fa98bbab84db8718499944c65e, type: 3}
+  m_PrefabInstance: {fileID: 820089197}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &821066472
 GameObject:
   m_ObjectHideFlags: 0
@@ -14277,7 +14380,7 @@ SortingGroup:
   m_GameObject: {fileID: 843620430}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &843620433
 SpriteRenderer:
@@ -15515,7 +15618,7 @@ SortingGroup:
   m_GameObject: {fileID: 900278300}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &900278303
 SpriteRenderer:
@@ -16852,7 +16955,7 @@ SortingGroup:
   m_GameObject: {fileID: 1015416660}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &1015416663
 SpriteRenderer:
@@ -24750,7 +24853,7 @@ SortingGroup:
   m_GameObject: {fileID: 1402905052}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &1402905055
 SpriteRenderer:
@@ -25953,7 +26056,7 @@ SortingGroup:
   m_GameObject: {fileID: 1454932719}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
 --- !u!212 &1454932722
 SpriteRenderer:
@@ -26935,7 +27038,7 @@ SortingGroup:
   m_GameObject: {fileID: 1509374545}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: -1
 --- !u!212 &1509374548
 SpriteRenderer:
@@ -27032,7 +27135,7 @@ SortingGroup:
   m_GameObject: {fileID: 1510511563}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
 --- !u!212 &1510511566
 SpriteRenderer:
@@ -32110,7 +32213,7 @@ SortingGroup:
   m_GameObject: {fileID: 1828409290}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
 --- !u!212 &1828409293
 SpriteRenderer:
@@ -37913,7 +38016,7 @@ SortingGroup:
   m_GameObject: {fileID: 2093328360}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
 --- !u!212 &2093328363
 SpriteRenderer:
@@ -38351,7 +38454,7 @@ SortingGroup:
   m_GameObject: {fileID: 2133320840}
   m_Enabled: 1
   m_SortingLayerID: -1129958837
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
 --- !u!212 &2133320843
 SpriteRenderer:
