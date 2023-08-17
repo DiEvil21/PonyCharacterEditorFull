@@ -93,7 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: "\uFFFD\uFFFD\uFFFD\uFFFD1"
+  - name: "\u0421\u043B\u043E\u0439 1"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -104,7 +104,7 @@ ScriptedImporter:
       y: 4
       width: 3
       height: 9
-    spriteID: bed773814e5e7c746b405e6aad798243
+    spriteID: 9fb5dbd0a0a89794bbd14cbea32157a6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,12 +200,12 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: "\uFFFD\uFFFD\uFFFD\uFFFD1"
-    spriteName: "\uFFFD\uFFFD\uFFFD\uFFFD1"
+  - name: "\u0421\u043B\u043E\u0439 1"
+    spriteName: "\u0421\u043B\u043E\u0439 1"
     isGroup: 0
     parentIndex: -1
-    spriteID: bed773814e5e7c746b405e6aad798243
-    layerID: 0
+    spriteID: 9fb5dbd0a0a89794bbd14cbea32157a6
+    layerID: 3
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1

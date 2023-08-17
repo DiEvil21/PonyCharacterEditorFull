@@ -121,10 +121,41 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
     boneReadOnly: 0
-  sharedRigSpriteImportData: []
+  sharedRigSpriteImportData:
+  - name: "\uFFFD\uFFFD\uFFFD\uFFFD1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 5
+      height: 13
+    spriteID: ac97864a75c770d4ba97598b51da0cb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   sharedRigCharacterData:
     bones: []
-    parts: []
+    parts:
+    - spritePosition:
+        x: 0
+        y: 0
+        width: 5
+        height: 13
+      spriteId: ac97864a75c770d4ba97598b51da0cb0
+      bones: 
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
     boneReadOnly: 0
@@ -193,7 +224,7 @@ ScriptedImporter:
   generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
-  skeletonAssetReferenceID: 
+  skeletonAssetReferenceID: 00000000000000000000000000000000
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -210,7 +241,17 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  sharedRigPSDLayers: []
+  sharedRigPSDLayers:
+  - name: "\uFFFD\uFFFD\uFFFD\uFFFD1"
+    spriteName: "\uFFFD\uFFFD\uFFFD\uFFFD1"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ac97864a75c770d4ba97598b51da0cb0
+    layerID: 0
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: 
