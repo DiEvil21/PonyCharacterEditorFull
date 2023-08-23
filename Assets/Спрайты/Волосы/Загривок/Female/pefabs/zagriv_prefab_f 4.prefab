@@ -78,7 +78,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 1
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.05, y: 0.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -140,5 +140,5 @@ SortingGroup:
   m_GameObject: {fileID: 3993593617977783348}
   m_Enabled: 1
   m_SortingLayerID: -384640573
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0

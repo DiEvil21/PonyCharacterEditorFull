@@ -1135,7 +1135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 985725490}
@@ -1517,7 +1517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 2113645514}
@@ -3558,7 +3558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1310087792}
@@ -4074,7 +4074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 872875929}
@@ -5401,7 +5401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1968247816}
@@ -5806,7 +5806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 172464538}
@@ -6230,7 +6230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 62257742}
@@ -9063,7 +9063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 899597176}
@@ -11073,7 +11073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1388010667}
@@ -12316,7 +12316,7 @@ SortingGroup:
   m_GameObject: {fileID: 770798108}
   m_Enabled: 1
   m_SortingLayerID: 686141311
-  m_SortingLayer: 20
+  m_SortingLayer: 19
   m_SortingOrder: 0
 --- !u!1 &774858393
 GameObject:
@@ -12875,7 +12875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1310087792}
@@ -13152,7 +13152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1051701802}
@@ -13262,7 +13262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 2058948295}
@@ -14904,7 +14904,7 @@ SortingGroup:
   m_GameObject: {fileID: 872875929}
   m_Enabled: 1
   m_SortingLayerID: -133633877
-  m_SortingLayer: 19
+  m_SortingLayer: 22
   m_SortingOrder: 0
 --- !u!1 &876266358
 GameObject:
@@ -15778,7 +15778,7 @@ SortingGroup:
   m_GameObject: {fileID: 967795884}
   m_Enabled: 1
   m_SortingLayerID: 686141311
-  m_SortingLayer: 20
+  m_SortingLayer: 19
   m_SortingOrder: 0
 --- !u!1 &973558654
 GameObject:
@@ -15833,7 +15833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 395989193}
@@ -16780,7 +16780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 967795884}
@@ -16872,7 +16872,7 @@ SortingGroup:
   m_GameObject: {fileID: 1051701802}
   m_Enabled: 1
   m_SortingLayerID: -133633877
-  m_SortingLayer: 19
+  m_SortingLayer: 22
   m_SortingOrder: 0
 --- !u!1 &1054705958
 GameObject:
@@ -19413,7 +19413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 770798108}
@@ -20112,7 +20112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1060356844}
@@ -20985,7 +20985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 471906645}
@@ -21353,7 +21353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1598667841}
@@ -24105,7 +24105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: 87eeaae6893b9e44cb626bcb8e140524, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 87eeaae6893b9e44cb626bcb8e140524, type: 3}
       propertyPath: m_RootOrder
@@ -24464,7 +24464,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1436123236}
   m_TextViewport: {fileID: 344465573}
   m_TextComponent: {fileID: 27311345}
@@ -25204,7 +25204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 2120042727}
@@ -26652,7 +26652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 2058948295}
@@ -27591,7 +27591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1456469314}
@@ -28100,7 +28100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 2061645840}
@@ -30056,7 +30056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 804126890}
@@ -30621,7 +30621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 266522064}
@@ -31677,7 +31677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 382224594}
@@ -32886,7 +32886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: e7ece92caa4f5ff46b51808e7d39674d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: e7ece92caa4f5ff46b51808e7d39674d, type: 3}
       propertyPath: m_TagString
@@ -35534,7 +35534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1815829330}
@@ -35876,7 +35876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 297046339}
@@ -36011,7 +36011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1485482973}
@@ -36272,7 +36272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeSprite: {fileID: 21300000, guid: cd743ae36772fbf409a2e1a19f045a24, type: 3}
   defaultSprite: {fileID: 21300000, guid: 6b9586ebafb859f4ca3574f40c85fa5e, type: 3}
-  defaultDeleteSprite: {fileID: 21300000, guid: 8085359e4dd4c0d44a2e59eb24b44d9d, type: 3}
+  defaultDeleteSprite: {fileID: 21300000, guid: 85c10e8df005caf458fda3b0033477e8, type: 3}
   delete_img: {fileID: 3507249276890066309, guid: a08a3ba35b2309449aa7dd56612ce55d, type: 3}
   item_icon: {fileID: 2865524520838710172, guid: 26d4f7ccac5bd624c8ca755b2f850542, type: 3}
   anchor: {fileID: 1883674119}
