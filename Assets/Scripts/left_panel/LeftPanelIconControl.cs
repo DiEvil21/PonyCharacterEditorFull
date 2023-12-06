@@ -11,12 +11,13 @@ public class LeftPanelIconControl : MonoBehaviour
     public GameObject right_panels_container;
     public GameObject right_panels_container_m;
     public GameObject right_panels_container_f;
+    // А зачем так?
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
+    // А зачем так?
     // Update is called once per frame
     void Update()
     {

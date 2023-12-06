@@ -28,10 +28,11 @@ public class GenderBtn_control : MonoBehaviour
     private void OnClick()
     {
         Debug.Log("Clicked on self");
-        // Добавьте свой код для выполнения действий при клике на себя
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ
         GetComponent<Image>().sprite = active;
         for (int i = 0; i < btn_images.Length; i++)
         {
+            // Рђ Р·Р°С‡РµРј С‚Р°Рє?
             btn_images[i].GetComponent<Image>().sprite = defaultSprite;
         }
         for (int i = 0; i < right_panels_container_m.transform.childCount; i++)
@@ -46,11 +47,13 @@ public class GenderBtn_control : MonoBehaviour
 
     }
 
+    // Рђ Р·Р°С‡РµРј С‚Р°Рє?
     // Update is called once per frame
     void Update()
     {
 
     }
+    // Рђ Р·Р°С‡РµРј С‚Р°Рє?
     public void deSelect() 
     {
         GetComponent<Image>().sprite = defaultSprite;

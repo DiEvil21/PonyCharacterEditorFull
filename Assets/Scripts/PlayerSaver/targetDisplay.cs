@@ -9,7 +9,7 @@ public class targetDisplay : MonoBehaviour
     {
         gameObject.GetComponent<Camera>().targetDisplay = 999;
     }
-
+    // А зачем так?
     // Update is called once per frame
     void Update()
     {

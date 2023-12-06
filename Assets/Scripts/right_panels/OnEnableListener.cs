@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OnEnableListener : MonoBehaviour
 {
+    // А зачем так?
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class OnEnableListener : MonoBehaviour
 
         gameObject.transform.GetChild(0).gameObject.SetActive(true);
     }
-
+    // А зачем так?
     // Update is called once per frame
     void Update()
     {

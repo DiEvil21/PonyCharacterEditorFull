@@ -8,12 +8,14 @@ public class GenderSelect : MonoBehaviour
     public GameObject female_model;
     public GameObject left_panel;
     public GameObject gender_btn;
+    // А зачем так?
     void Start()
     {
         
     }
 
     // Update is called once per frame
+    // А зачем так?
     void Update()
     {
         
@@ -27,6 +29,7 @@ public class GenderSelect : MonoBehaviour
             gender_btn.SetActive(true);
         }
         CharacterInfo.gender = sel;
+        // Нарушение DRY
         male_model.transform.gameObject.SetActive(false);
         female_model.transform.gameObject.SetActive(false);
         if (sel)

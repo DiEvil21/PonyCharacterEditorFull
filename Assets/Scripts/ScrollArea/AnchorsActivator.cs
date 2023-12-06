@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Чем отличается от SelfAnchorActivator
 public class AnchorsActivator : MonoBehaviour
 {
     CharacterInfo characterInfo;
@@ -17,7 +18,7 @@ public class AnchorsActivator : MonoBehaviour
         }
         characterInfo = GameObject.FindGameObjectWithTag("character").GetComponent<CharacterInfo>();
     }
-
+    // А зачем так?
     public void ActivateAnchors() 
     {
         if (GetComponentInParent<ScrollAreaController>().anchorForDelete != null) 

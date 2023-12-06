@@ -20,7 +20,7 @@ public class ScrollAreaController : MonoBehaviour
     {
         generateIcons(sprites_arr);
     }
-
+    // Рђ Р·Р°С‡РµРј С‚Р°Рє?
     // Update is called once per frame
     void Update()
     {
@@ -53,7 +53,7 @@ public class ScrollAreaController : MonoBehaviour
         {
             if (anchor.transform.childCount > 0)
             {
-                // Активируем уши при удалении шмота если уши указаны
+                // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                 ActivateEars();
                 Object.Destroy(anchor.transform.GetChild(0).gameObject);
                 for (int i = 1; i < transform.childCount; i++)
@@ -66,7 +66,7 @@ public class ScrollAreaController : MonoBehaviour
         }
         else 
         {
-            //Убираем уши если указаны
+            //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             DeactivateEars();
             for (int i = 0; i < transform.childCount; i++)
             {
@@ -74,20 +74,20 @@ public class ScrollAreaController : MonoBehaviour
             }
             transform.GetChild(0).GetComponent<Image>().sprite = defaultDeleteSprite;
             transform.GetChild(ID + 1).GetComponent<Image>().sprite = activeSprite;
-            //Убираем предыдущий шмот на том же якоре
+            //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
             if (anchor.transform.childCount > 0)
             {
                 Object.Destroy(anchor.transform.GetChild(0).gameObject);
             }
-            // спавним новый шмот
+            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
             GameObject hair = Instantiate(prefabs_arr[ID]);
             CharacterInfo.anchorDict[anchor] = prefabs_arr[ID].GetComponent<ItemUID>().id;
-            // Если указан якорь для удаления, скрываем его(например,при надевании маски надо убрать волосы)
+            // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ(пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ,пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ)
             if (anchorForDelete != null) 
             {
                 anchorForDelete.SetActive(false);
             }
-            // это старый вариант, где удалялся шмот на якоре для удаления
+            // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             /*if (hair.name.Contains("mask") && anchorForDelete != null)
             {
                 if (anchorForDelete.transform.childCount > 0) 

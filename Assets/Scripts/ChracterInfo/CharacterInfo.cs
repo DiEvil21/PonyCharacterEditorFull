@@ -17,6 +17,7 @@ public class CharacterInfo : MonoBehaviour
         {
             anchorDict.Add(anch,null);
         }
+        // А зачем оно тогда?
         try 
         { 
             //Load(); 
@@ -24,6 +25,7 @@ public class CharacterInfo : MonoBehaviour
         catch { }
             
     }
+    // Нарушение SRP, причем грубое
     public void SpawnAssets()
     {
         male_model.transform.gameObject.SetActive(false);

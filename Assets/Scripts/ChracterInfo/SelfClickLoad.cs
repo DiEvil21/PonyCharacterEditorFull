@@ -16,10 +16,10 @@ public class SelfClickLoad : MonoBehaviour
             button.onClick.AddListener(OnClick);
         }
     }
-
     private void OnClick()
     {
         Debug.Log("Btn for load clicked on self");
+        // А зачем так?
         string name = transform.GetComponentInChildren<TextMeshProUGUI>().text;
         transform.GetComponentInParent<ReadSaveData>().SpawnSaves(name);
 
